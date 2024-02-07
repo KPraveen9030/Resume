@@ -1,0 +1,379 @@
+*{
+   
+    padding: 0;
+  
+    margin: 0;
+  
+    outline: none;
+  
+    border: none;
+  
+    box-sizing: border-box;
+  
+  }
+  
+  html{
+  
+    font-size: 62.5%;
+  
+    overflow-x: hidden;
+  
+  }
+  
+  body{
+  
+    background-color: #464242;
+  
+    overflow: hidden;
+  
+    padding-left: 35rem;
+  
+  }
+  
+  .heading{
+  
+    text-align: center;
+  
+    margin: 0 6rem;
+  
+    font-size: 4rem;
+  
+    padding-top: 6rem;
+  
+    border-bottom: .1rem solid rgba(24, 27, 179, 0.863);
+  
+    color: #fff;
+  
+  }
+  
+  .heading span{
+  
+    color: #fff;
+  
+  }
+  
+  .title{
+  
+    text-align: center;
+  
+    margin: 0 6rem;
+  
+    font-size: 4rem;
+  
+    padding-top: 6rem;
+  
+    border-bottom: .1rem solid rgba(87, 16, 218, 0.836);
+  
+    color: #fff;
+  
+  }
+  
+  .title span{
+  
+    color: #fff;
+  
+  }
+  
+  .head{
+  
+    text-align: center;
+  
+    margin: 0 6rem;
+  
+    font-size: 4rem;
+  
+    padding-top: 5rem;
+  
+    border-bottom: .1rem solid rgb(117, 13, 236);
+  
+    color: #fff;
+  
+  }
+  
+  .head span{
+  
+    color: #fff;
+  
+  }
+  
+  header{
+  
+    position:fixed;
+  
+    top: 0;
+  
+    left: 0;
+  
+    z-index: 1000;
+  
+    height: 100%;
+  
+    width: 35rem;
+  
+    background:hsl(150, 8%, 16%);
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    flex-flow: column;
+  
+    text-align: center;
+  
+  }
+  
+  header .user img{
+  
+    height: 13rem;
+  
+    width: 13rem;
+  
+    border-radius: 50%;
+  
+    object-fit: cover;
+  
+    border: .5rem solid;
+  
+  }
+  
+  header .user .nm{
+  
+    font-size:2rem;
+  
+    color: #fff;
+  
+  }
+  
+  header .user .jb{
+  
+    font-size:1rem;
+  
+    color: yellowgreen;
+  
+  }
+  
+  header .nv{
+  
+    width: 100%;
+  
+  }
+  
+  header .nv ul{
+  
+    list-style: none;
+  
+    padding: 1rem ;
+  
+  }
+  
+  header .nv ul li a{
+  
+    display: block;
+  
+    padding: 1rem;
+  
+    margin: 1.5rem 0;
+  
+    background: #333333;
+  
+    color: #fff;
+  
+    font-size: 2rem;
+  
+    border-radius: 5rem;
+  
+    text-decoration: none;
+  
+  }
+  
+  header .nv ul li a:hover{
+  
+    background-color:yellowgreen;
+  
+    color: #111;
+  
+  }
+  
+  .Details .Row .det h3 a{
+  
+    color: rgb(255, 208, 0);
+  
+  }
+  
+  .Details .Row .det h3 a:hover{
+  
+    color: #fff;
+  
+   }
+  
+  .Details .Row{
+  
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    flex-wrap: wrap;
+  
+    padding: 3rem 0;
+  
+  }
+  
+  .Details .Row .det{
+  
+    flex: 1 1 48rem;
+  
+    padding: 2rem 1rem;
+  
+    padding-left: 8rem;
+  
+  }
+  
+  .Details .Row .det h3{
+  
+    font-size: 2rem;
+  
+    color: #fff;
+  
+    padding: 1rem 0;
+  
+    font-weight: normal;
+  
+    padding-left: 200px;
+  
+  }
+  
+  .Details .Row .det h3 span{
+  
+    color: yellowgreen;
+  
+    padding: 0. 5rem;
+  
+  }
+  
+  .Education .tbl{
+  
+    padding-left: 150px;
+  
+  }
+  
+  .Education .tbl td a{
+  
+    color: #fff;
+  
+    text-decoration: none;
+  
+    padding: 1rem;
+  
+  }
+  
+  .Education .tbl td a:hover{
+  
+    color: yellow;
+  
+    text-decoration: none;
+  
+    padding: 1rem;
+  
+  }
+  
+  table,th,td{
+  
+    border: 1px solid rgb(114, 114, 112);
+  
+    border-collapse: collapse;
+  
+  }
+  
+  td{
+  
+    padding: 5px;;
+  
+  }
+  
+  th{
+  
+    color:yellowgreen;
+  
+    padding: 1rem;
+  
+  }
+  
+  table{
+  
+    text-align: center;
+  
+    margin: 0 6rem;
+  
+    font-size: 2rem;
+  
+    padding: 1rem;
+  
+    border-bottom: .1rem solid rgb(139, 211, 97);
+  
+    color: #fff;
+  
+  }
+  
+  #lis{
+  
+    margin: 5rem;
+  
+    padding: 15px;
+  
+    color: #fff;
+  
+    font-size: 30px;
+  
+    padding-left: 350px;
+  
+    list-style-type: none;
+  
+  }
+  
+  .Project{
+  
+    padding-bottom: 500px;
+  
+  }
+  
+  .Project .card{
+  
+    border: .1px solid transparent;
+  
+    margin: 200px;
+  
+    margin-top: 50px;
+  
+    padding: 5px;
+  
+  }
+  
+  .Project .card h3 {
+  
+    font-size: 2rem;
+  
+    color: #fff;
+  
+    padding: 1rem 0;
+  
+    font-weight: normal;
+  
+  }
+  
+  .Project a {
+  
+    text-decoration: none;
+  
+  }
+  
+  .Project .card h3 span{
+  
+    color: yellowgreen;
+  
+    padding: 0. 5rem;
+  
+  }
